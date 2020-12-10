@@ -26,9 +26,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // the request body to the form we want
 app.use(bodyParser.json());
 
-var porta = 3010
-var server = app.listen(porta,()=>{
-    console.log('Server is running on port number 3000')
+const SERVER_PORT = process.env.PORT || 9001;
+var server = app.listen(SERVER_PORT,()=>{
+    console.log('Server is running on port number 9001')
 })
 
 
