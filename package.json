@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
-    "test": "mocha"
+    "test": "echo \"No test specified\""
   },
   "author": "",
   "license": "MIT",
